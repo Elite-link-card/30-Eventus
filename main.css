@@ -2594,7 +2594,10 @@ font-size: 1rem;}
 }.fa-envelope {left: 6px;
   top: 10px;
 font-size: 1rem;}
-
+.fa-tiktok{
+  left: 10px;
+background-color: #000000;}
+ 
 .fa-phone {
   left: 11px;
   top: 15px;
@@ -2639,6 +2642,9 @@ to {top: 0px;}
 #whatsapp-icon {
   background: #27af67;
 }
+#tiktok-icon {
+  background: #ffffff;
+}
 
 #instagram-icon {
   background: -webkit-radial-gradient(
@@ -2661,7 +2667,7 @@ to {top: 0px;}
   background: #ffffff;
 }
 #tiktok-icon {
-  background: #000000;
+  background: #ffffff;
 }
 #twitter-icon {
   background: #0084ff;
