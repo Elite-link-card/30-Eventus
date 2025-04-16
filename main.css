@@ -1034,8 +1034,8 @@ html {
   justify-content: top;
   position: relative;
   border-radius: 12px;
-  background: #ffffff00;
-background-image: url( ddd.png);
+  background: #000000;
+background-image: url( );
 }
 @keyframes  url(Untitled\ design\ \(1\).png){
   max-width: 100%;
