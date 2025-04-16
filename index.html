@@ -131,116 +131,48 @@
               </div>
             </a>
           </li>
+         
           <li>
+            <a class="detail-item" href="https://www.linkedin.com/in/epic-academy-635646267" rel="noreferrer" target="_blank" onclick="Blinq.handleFieldClick('url', {&quot;id&quot;:&quot;lgOMvedZTMQjKD7gAbOk&quot;,&quot;title&quot;:&quot;Facebook&quot;,&quot;value&quot;:&quot;https://www.facebook.com/profile.php?id&#x3D;100013028137023&amp;mibextid&#x3D;ZbWKwL&quot;,&quot;type&quot;:&quot;facebook&quot;,&quot;isPreset&quot;:false})">
+                <div class="detail-icon-circle" id="linkedin-icon">
+                    <i class="fa fa-linkedin fa-lg detail-icon"></i>
+                </div>
+                <div class="detail-data">
+                    <div class="detail-data-value" data-type="url">LinkedIn</div>
+                </div>
+            </a>
+        </li>
+        <li>
+          <a class="detail-item" href="mailto:epicacademy55@gmail.com" rel="noreferrer" target="_blank" onclick="Blinq.handleFieldClick('url', {&quot;id&quot;:&quot;KNKdj2AnQQrCg0xw6GOZ&quot;,&quot;title&quot;:&quot;Instagram : Samy_khaled_1&quot;,&quot;value&quot;:&quot;https://www.instagram.com/samy_khaled_1/?igshid&#x3D;YmMyMTA2M2Y%3D&quot;,&quot;type&quot;:&quot;instagram&quot;,&quot;isPreset&quot;:false})">
+              <div class="detail-icon-circle" id="facebook-icon">
+                  <i class="fa fa-e fa-lg fa-tik-tok detail-icon"></i>
+              </div>
+              <div class="detail-data">
+                  <div class="detail-data-value" data-type="url">Email</div>
+              </div>
+      
+          </a>
+      </li>
+             <li>
             <a
               class="detail-item"
-              href="https://instagram.com/samy_ph_2?igshid&#x3D;NDk5N2NlZjQ&#x3D;"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScNJURpzS50EASCCX33WWutUnyor1aIhbn76MRGDo5C5XSqzw/viewform?usp=preview
               rel="noreferrer"
               target="_blank"
             >
-              <div class="detail-icon-circle" id="linkedin-icon">
-                <i class="fa fa-instagram fa-lg detail-icon"></i>
+              <div class="" id="linkedin-icon">
+                <i class="></i>
               </div>
               <div class="detail-data">
-                <div class="detail-data-value" data-type="url">Samy_ph_2</div>
+                <div class="detail-data-value" data-type="url">Google Form</div>
               </div>
             </a>
           </li>
         </ul>
       </div>
-      <button id="share-contact-button" onclick="showForm()">
-        Share Contact
-      </button>
-      <div class="share-contact-container inactive">
-        <form class="share-contact-form">
-          <div id="form-close-icon" onclick="removeForm()">&times;</div>
-          <h2>Share Contact</h2>
-          <input
-            type="text"
-            required
-            placeholder="First Name *"
-            id="first-name-contact"
-          />
-          <input
-            type="text"
-            required
-            placeholder="Last Name *"
-            id="last-name-contact"
-          />
-          <input type="text" placeholder="Job Title" id="job-title-contact" />
-          <input type="email" placeholder="Email" id="email-contact" />
-          <input
-            type="tel"
-            required
-            placeholder="Phone Number (+20 1** *** ****) *"
-            id="phone-contact"
-          />
-          <button id="share-button" onclick="shareContact()">
-            Send
-          </button>
-        </form>
-
-        <div
-          id="share-contact-form-overlay"
-          class="inactive"
-          onclick="removeForm()"
-        ></div>
-      </div>
-    </div>
+      
     <script>
-      const shareContact = () => {
-        // get the values that will be sent
-        firstName = document.getElementById("first-name-contact").value.trim();
-        lastName = document.getElementById("last-name-contact").value.trim();
-        fullName = firstName + " " + lastName;
-        fullName = fullName.trim();
-        senderPhoneNumber = document
-          .getElementById("phone-contact")
-          .value.trim();
-        email = document.getElementById("email-contact").value.trim();
-        jobTitle = document.getElementById("job-title-contact").value.trim();
-
-        // Encode the phone number and message for the URL.
-        recieverPhoneNumber = "+201069239449";
-
-        message = `*Hi*, %0A*${fullName}* is shareing his contact with you %0A*Phone Number:* ${senderPhoneNumber}`;
-
-        if (email.trim()) {
-          message += ` %0A*Email:* ${email}`;
-        }
-        if (jobTitle.trim()) {
-          message += ` %0A*Job Title:* ${jobTitle}`;
-        }
-
-        const encodedPhoneNumber = encodeURIComponent(recieverPhoneNumber);
-        const encodedMessage = encodeURIComponent(message);
-
-        // Create the WhatsApp URL.
-        const whatsappURL = `https://wa.me/${encodedPhoneNumber}?text=${message}`;
-
-        // Open WhatsApp Web or the WhatsApp app with the pre-filled message.
-        if (firstName.trim() && lastName.trim() && senderPhoneNumber.trim()) {
-          window.open(whatsappURL);
-        }
-      };
-
-      const showForm = () => {
-        document
-          .getElementsByClassName("share-contact-container")[0]
-          .classList.remove("inactive");
-        document
-          .getElementById("share-contact-form-overlay")
-          .classList.remove("inactive");
-      };
-
-      const removeForm = () => {
-        document
-          .getElementsByClassName("share-contact-container")[0]
-          .classList.add("inactive");
-        document
-          .getElementById("share-contact-form-overlay")
-          .classList.add("inactive");
-      };
+     
     </script>
   </body>
 </html>
