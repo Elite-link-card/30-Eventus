@@ -408,7 +408,7 @@
   --hollow-highlight-color: var(--neutral-700);
 }
 
-.blinq-button[data-variant="primary"] {
+.blinq-button[deariant="primary"] {
   background: var(--button-color);
   color: #fff;
   border: 1px solid var(--button-color);
@@ -2700,6 +2700,7 @@ to {top: 0px;}
   display: flex;
   align-items: baseline;
   color: #ffffff;
+
   font-weight: 700;
   justify-content: center;
 
