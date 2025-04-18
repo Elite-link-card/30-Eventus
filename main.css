@@ -2688,7 +2688,7 @@ to {top: 0px;}
   flex-direction: column;
   width: 100%;
   align-items: flex-start;
-  text-align: left;
+  text-align: center;
   overflow: hidden;
 }
 
