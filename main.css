@@ -2613,7 +2613,7 @@ font-size: 1rem;}
   height: 60px;
   width: 60px;
   border-radius: 60%;
-  background: var(--danger-800);
+  background:#0084ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2634,7 +2634,23 @@ to {top: 0px;}
   height: 50px;
   width: 50px;
 }
-
+.detail-list .detail-icon-circcle {
+  height: 60px;
+  width: 100%;
+  border-radius:5%;
+  background:#a30000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.2s;
+  flex: 0 0 auto;
+  color: #ffffff;
+  font-size: 1.75rem;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+ }
 #phone-icon {
   background: #2eb133;
 }
@@ -2666,7 +2682,7 @@ to {top: 0px;}
 #save-icon {
   background: #ffffff;
 }
-}
+
 #twitter-icon {
   background: #0084ff;
 }
