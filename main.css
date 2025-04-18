@@ -2585,7 +2585,7 @@ font-size: 1rem;}
 
 .fa-facebook,
 .fa-link {
-  left: 16px;
+  left: 10px;
 }
 .fa-linkedin{ 
   left:8px;
@@ -2596,7 +2596,7 @@ font-size: 1rem;}
 font-size: 1rem;}
 .fa-tiktok{
   left: 10px;
-background-color: #000000;}
+}
  
 .fa-phone {
   left: 11px;
@@ -2643,7 +2643,7 @@ to {top: 0px;}
   background: #27af67;
 }
 #tiktok-icon {
-  background: #ffffff;
+  background: #000000;
 }
 
 #instagram-icon {
@@ -2666,8 +2666,6 @@ to {top: 0px;}
 #save-icon {
   background: #ffffff;
 }
-#tiktok-icon {
-  background: #ffffff;
 }
 #twitter-icon {
   background: #0084ff;
